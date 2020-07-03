@@ -57,21 +57,29 @@ $ typeof <name of variable>
 
 ~~~ 
 let firstName; // no value assigned, hence JS assigns undefined by default
+
 typeof firstName; // "undefined" 
+
 firstName = "Rahul";
+
 const age = 30;
+
 let money = null;
+
 let isNonVeg = true;
+
 let address = {
     state: "UP",
     district: "Noida"
 }
+
 let favColors = ["red", "blue", "pink"]
+
 function getName(){
     return firstName;
 }
 
-typeof money; // "object" // a bug in JS but have deal with it 
+typeof money; // "object" // a bug in JS but have to deal with it 
 typeof firstName; // "string"
 typeof age; // "number"
 typeof isNonVeg; // "boolean"
